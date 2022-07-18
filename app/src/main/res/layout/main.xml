@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="396dp"
+            android:layout_height="422dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ukrian" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="380dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/flexible">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="305dp"
+            android:layout_height="157dp"
+            android:paddingTop="40dp"
+            android:layout_gravity="center"
+            android:text="Inspiration for your next trip"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scrollbars="vertical"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="305dp"
+            android:layout_height="157dp"
+            android:paddingTop="40dp"
+            android:layout_gravity="center"
+            android:text="Discover Airbnb Experiences"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="380dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/discover">
+        </ImageView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="380dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            app:srcCompat="@drawable/online">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="305dp"
+            android:layout_height="100dp"
+            android:paddingTop="40dp"
+            android:layout_gravity="center"
+            android:text="Shop Airbnb Gift Cards"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#756E6E"
+            android:textColor="@color/white"
+            android:text="Learn More">
+
+        </Button>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="380dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            app:srcCompat="@drawable/giftcards">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="380dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            app:srcCompat="@drawable/hosting">
+        </ImageView>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="40dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:textColor="@color/white"
+                android:text="Support">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Help Center">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Safety Information">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Cancellation Options">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Our Covid-19 Response">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Supporting People with Disabilities">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingBottom="20dp"
+                android:textColor="#EAE4E4"
+                android:text="Report a Neighbourhood concern">
+
+            </TextView>
+            <View
+                android:layout_width="325dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:textColor="@color/white"
+                android:text="Community">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Airbnb.org: disaster relief housing">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Support Refugees">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:paddingBottom="20dp"
+                android:text="Combating descrimination">
+
+            </TextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <View
+            android:layout_width="325dp"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:textColor="@color/white"
+                android:text="Hosting">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Aircover: protection for hosts">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:text="Explore hosting resources">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:textColor="#EAE4E4"
+                android:paddingBottom="40dp"
+                android:text="How to host responsibily">
+
+            </TextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

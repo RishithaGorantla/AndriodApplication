@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <!-- viewpager to show images -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Entire Cabin hosted by Myron"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="7 guests . 2 bedrooms . 4 beds . 2 bathrooms"></TextView>
+
+    <View
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_width="325dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <TextView
+
+        android:drawableStart="@drawable/check_in_foreground"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
+
+        android:text="Self check-in"></TextView>
+
+    <TextView
+
+        android:drawableStart="@drawable/location_foreground"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
+
+        android:text="Great Location"></TextView>
+
+    <TextView
+android:drawablePadding="20dp"
+        android:drawableStart="@drawable/key_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
+
+        android:text="Great check-in Experience"></TextView>
+
+    <View
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_width="325dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guests"
+            android:textSize="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/sub"
+            android:backgroundTint="@color/purple_200"
+            style="@style/QuantityPickerButtonStyle"
+            android:textColor="@color/white"
+            android:onClick="decrement"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:backgroundTint="@color/purple_200"
+            style="@style/QuantityPickerButtonStyle"
+            android:onClick="increment"
+            android:textColor="@color/white"
+            android:text="+"  />
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+
+        <EditText android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:hint="Set Your Date"
+            android:id="@+id/datetext"
+            android:focusable="false">
+        </EditText>
+
+            <Button android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="CHOOSE DATES">
+
+
+            </Button></androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/rulesbtn"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/white"
+        android:text="House Rules" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

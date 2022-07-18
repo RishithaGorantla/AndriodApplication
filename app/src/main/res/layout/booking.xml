@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Your Trip"></TextView>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Dates"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp">
+    <EditText
+        android:id="@+id/dateedit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"></EditText>
+    <Button
+        android:id="@+id/changedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/white"
+        android:paddingLeft="150dp"
+        android:text="Edit"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Guests"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp">
+        <EditText
+            android:id="@+id/quantityedit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"></EditText>
+    </LinearLayout>
+
+    <View
+        android:paddingTop="70dp"
+        android:paddingBottom="30dp"
+        android:layout_width="325dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <Button android:id="@+id/addguest"
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Add Guest Details"/>
+
+
+    <Button android:id="@+id/reqtobook"
+        android:layout_width="350dp"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Request to Book"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

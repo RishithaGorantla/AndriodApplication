@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="House Rules"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"
+        android:textColor="@color/white"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        />
+    <View
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_width="325dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+
+        android:textSize="15dp"
+        android:paddingLeft="40dp"
+        android:textColor="#EAE4E4"
+        android:paddingBottom="10dp"
+        android:text="Check-in: After 4:00 pm"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+
+        android:textSize="15dp"
+        android:paddingLeft="40dp"
+        android:textColor="#EAE4E4"
+        android:paddingBottom="10dp"
+        android:text="Check out: 11:00 am"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+
+        android:textSize="15dp"
+        android:paddingLeft="40dp"
+        android:textColor="#EAE4E4"
+        android:paddingBottom="10dp"
+        android:text="No smoking"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+
+        android:textSize="15dp"
+        android:paddingLeft="40dp"
+        android:textColor="#EAE4E4"
+        android:paddingBottom="10dp"
+        android:text="No pets"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+
+        android:textSize="15dp"
+        android:paddingLeft="40dp"
+        android:textColor="#EAE4E4"
+        android:paddingBottom="10dp"
+        android:text="No parties or events"></TextView>
+</androidx.appcompat.widget.LinearLayoutCompat>
